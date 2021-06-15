@@ -5,4 +5,11 @@
 
 ## Usage
 ```
-./pdfocr.sh <pdfName>
+./pdfocr.sh <pdfName> <language>
+```
+
+Langauges e.g: eng, deu, etc.
+List all installed languages:
+```
+tesseract --list-langs
+```
